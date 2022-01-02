@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZARO BOUTIQUE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body bgcolor="Gainsboro">
+
+    <!-- Barre de navigation-->
+     <nav>
+         <h1><a href="index.html">ZARO <i class="fas fa-user-secret"></i></a></h1>
+         
+         <div class="onglets">
+             <p class="link"><a href="women.html">Women</a></p>
+             <p class="link"><a href="men.html">Men</a></p>
+             <p class="link"><a href="childs.html">Childs</a></p>
+             <p class="link"><a href="others.html">Others</a></p>
+             <p class="link"><a href="nouveautes.html">Nouveautes</a></p>
+             <p class="link"><a href="marques.html">Marques</a></p>
+             <form>
+                 <input type="Search" placeholder="rechercher" id="rechercher" onchange="ouvrirPage()">
+                 <!-- script pour rechercher-->
+                 <script>
+                     function ouvrirPage()
+                                          {
+                         var a= document.getElementById("rechercher").value;
+                         
+                         if(a==="men"){
+                             window.open("men.html");
+                         }
+                          if(a==="childs"){
+                             window.open("childs.html");
+                         }
+                         if(a==="women"){
+                             window.open("women.html");
+                         }
+                          if(a==="others"){
+                             window.open("others.html");
+                         }
+                          if(a==="nouveautes"){
+                             window.open("nouveautes.html");
+                         }
+                         if(a==="marques"){
+                             window.open("marques.html");
+                         }
+                     }
+                 </script>
+             </form>
+             <p><i class="far fa-heart"></i></p>
+             <p><i class="fas fa-shopping-cart"></i></p>
+         </div>
+         <div class="dropdown">
+                <button class="dropbtn"><i>Menu</i></button>
+                <div class="dropdown-content">
+                  <a href="women.html" style="color: rgb(0, 0, 0);"><i>Women</i></a>
+                  <a href="men.html"  style="color: rgb(0, 0, 0);"><i>Men</i></a>
+                  <a href="index.html" style="color: rgb(0, 0, 0);"><i>Get started</i></a>
+                 <a href="compte.html" style="color: rgb(0, 0, 0);">Log in</a>
+                 
+                </div>
+         </div>
+         
+        
+     </nav>
+    <!-- fin de Barre de navigation-->
+
+    <!-- Header -->
+      <!--<header> 
+        <h1>Bienvenue, C'est votre Boutique, Votre chez-vous.</h1>
+        <button><a href="compte.html">Naviguer <i class="fas fa-paper-plane"></i></a></button>
+    </header>  -->
+    <section class="promos">
+            <div class="banniere" >
+                 <div class="banniere-contenu d-flex container">
+                     <div class="gauche">
+                         <span class="sous-titre">OBTENEZ VOTRE COLLECTION PRINTEMPS</span>
+                         <h2 class="titre">
+                             jusqu'a
+                             <span class="couleur">90%<br/>
+                            de réduction</span>
+                            sur<br/>
+                            nos offre de la semaine
+                         </h2>
+                         <h5>Du 24 décember au 30 décember 2021</h5>
+                         <a href="#" class="btn"> ACHETEZ MAINTENANT</a>
+                     </div>
+            </div>
+        </section>        
+    <!-- Header -->
+
+    <!-- Section principale-->
+    <section class="main">
+        <!-- Toutes les cardes-->
+        <div class="cards">
+            <div class="card">
+                  <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/70789d7f-1403-49ff-9b91-78495c53a1b2/short-de-tennis-nikecourt-dri-fit-advantage-23-cm-pour-SQb4sp.png" alt="">
+                  <div class="card-header">
+                       <h4 class="title">Short Nike</h4>
+                       <h4 class="prix">199$</h4>
+                  </div>
+                  <div class="card-body">
+                      <p>Short moulant pour homme</p>
+                  </div>            
+            </div>
+        
+
+            <div class="card">
+                  <img src="https://i.pinimg.com/474x/4d/84/3e/4d843e28feb62aecff1c4b2190630129.jpg" alt="">
+                  <div class="card-header">
+                       <h4 class="title">Paire de chaussures stylées</h4>
+                       <h4 class="prix">89$</h4>
+                  </div>
+                  <div class="card-body">
+                      <p>Des paires de chaussures stylées pour femme</p>
+                  </div>            
+            </div>
+        
+
+            <div class="card">
+                  <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cc33acd0-4907-4012-b6b8-f02b11d2526b/short-de-training-en-maille-a-motif-dri-fit-story-pack-pour-6s2CzR.png" alt="">
+                  <div class="card-header">
+                       <h4 class="title">Short pour courir</h4>
+                       <h4 class="prix">119$</h4>
+                  </div>
+                  <div class="card-body">
+                      <p>Sport pour courir en plain air pour homme</p>
+                  </div>            
+            </div>
+        </div>
+    </section>    
+    <!-- Fin de Toutes les cardes-->
+     <div class="image">
+         <img src="https://www.datocms-assets.com/44717/1620201078-commerce-de-detail-dhabillement-clark-street-mercantile-p3pi6xzovu0-unsplash.jpg?auto=format&w=1920" alt="" width="1080" height="520">
+           <div class="text">
+               <center><p class="ttext">Production et Qualité irréprochable</p>
+               <p class="tttext">Tous nos produits sont créés grâce à des machines de haute précision afin de reproduire chaque pièce dans ses moindres détails.
+                Nous exigeons la qualité, c'est pourquoi certains de nos articles sont parfois conçus manuellement par des professionnels de couture.
+                C'est après divers examens et inspections que nos articles atteignent l'objectif dont nous sommes si fiers: des produits de qualité et suivant 
+                les dernières tendances! </p></center>
+           </div>
+     </div>
+
+    <!-- Video de presentation-->
+    
+    <center><div class="video">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/k3XmbGS7bN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+       </div>
+    </center> 
+    <!-- Fin de Video de presentation-->
+    
+    <!-- information-->
+        <section class="information">
+
+        </section>
+    <!-- fin information-->
+    
+    <!-- Fin de Section principale-->
+
+
+    <section id="contact">
+        <div class="inner">
+            <section>
+                <p>Ici vous pouvez laisser votre message</p>
+                <form method="post" action="#">
+                    <div class="fields">
+                        <div class="fieldhalf">
+                            <label for="name">Name :</label>
+                            <input type="text" name="name" id="name" />
+                        
+                        
+                            <label for="email">Email :</label>
+                            <input type="text" name="email" id="email"/>
+                        </div>
+                        <div class="field">
+                            <label for="message">Message :</label>
+                            <textarea name="message" id="message" rows="6"></textarea>
+                        </div>
+                    </div>
+                    <div class="actions">
+                       <table><th><input type="submit" value="Send Message" class="primary" /><th>
+                        <th><input type="reset" value="Clear" /></th></table> 
+                    </div>
+                </form>
+            </section>
+            <section class="split">
+                <section>
+                    <div class="contact-method">
+                        <i class="fas fa-envelope-square"></i>
+                        <h3>Email</h3>
+                        <a href="#">youssefbodouar1000@gmail.com</a>
+                    </div>
+                </section>
+                <section>
+                    <div class="contact-method">
+                        <i class="fas fa-phone-square"></i>
+                        <h3>Phone</h3>
+                        <span>+212622838503</span>
+                    </div>
+                </section>
+                <section>
+                    <div class="contact-method">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <span>1234 MARRAKECH issil boulvard allal lfasi<br />
+                        Morroco</span>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </section>
+
+<!-- Footer -->
+<div class="footer-basic">
+    <footer>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="index.html">Home</a></li>
+            <li class="list-inline-item"><a href="women.html">Women</a></li>
+            <li class="list-inline-item"><a href="men.html">Men</a></li>
+            <li class="list-inline-item"><a href="childs.html">childs</a></li>
+            <li class="list-inline-item"><a href="compte.html">login</a></li>
+        </ul>
+        <p class="copyright">Copyright by Youssef © 2021</p>
+    </footer>
+</div>
+
+
+  
+    <!-- Fin du pied de page-->
+</body>
+</html>
